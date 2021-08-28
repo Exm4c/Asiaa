@@ -19,8 +19,9 @@
 .navbar-logo{
     text-decoration: none;
     color:white;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 20px;
 
 }
 
@@ -36,13 +37,15 @@
     height: 12px;
     padding: 10px;
     border: none;
-    width: 50%;
+    width: 100%;
     border-radius: 8px;
 
 }
 .navbar-nav{
     display: flex;
     justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .navbar-option{
     display: flex;
