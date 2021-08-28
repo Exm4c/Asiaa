@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+//import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 
@@ -30,18 +30,19 @@ function Navbar() {
                     <div className="navbar-nav">
                         
                     
-                        <div className="navbar-option">
-                            <span
-                            className="navbar-optionLineOne"
+                        <div className="navbar-account">
+                            <span className="navbar-optText"
+                            
                             >Conta</span>
                         
                         </div>
                       
-                        <div className="navbar-option">
-                            <span
-                            className="navbar-optionLineOne"
-                            >Carrinho</span>
-                    
+                        <div className="navbar-cart">
+                          <span
+                            className="navbar-optText"
+                            >Carrinho  </span>
+                             <span className="navbar-optText navbar-carCount">0</span>
+
                         </div>
        
                     </div>

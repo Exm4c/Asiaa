@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    
 }
 
 .navbar-container{
@@ -39,20 +40,31 @@
     border: none;
     width: 100%;
     border-radius: 8px;
+    outline: none;
 
 }
 .navbar-nav{
     display: flex;
     justify-content: space-evenly;
     margin-right: 100px;
+    font-weight: 600;
     margin-left: 100px;
 }
-.navbar-option{
+.navbar-account{
     display: flex;
     flex-direction: column;
     margin-right: 10px;
     margin-left: 10px;
     color: white;
+}
+
+.navbar-cart{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+
 }
 
 
