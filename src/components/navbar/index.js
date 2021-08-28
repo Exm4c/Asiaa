@@ -21,10 +21,13 @@ function Navbar() {
                     
                    
                     <div className="navbar-search">
-                       
+
+                        <button type="summit" className="navbar-searchDropdown">Todos produtos ˅</button>
                         <input className="navbar-searchInput" type="text"/>
-                        <img src={search} className="navbar-search-icon" alt="search"/>
+
                         
+
+                        <button type="summit" className="navbar-searchButton"><img src={search} className="navbar-search-icon" alt="search"/></button>
                         
                     </div>
                    
