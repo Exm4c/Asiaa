@@ -1,5 +1,5 @@
 .navbar{
-    height: 60px;
+    height: 70px;
     display:flex;
     align-items: center;
     background-color: #3633C8;
@@ -29,7 +29,7 @@
 .navbar-search{
     display: flex;
     flex: 1;
-    align-items:right;
+    align-items:center;
     border-radius: 8px;
 
 }
@@ -43,30 +43,45 @@
     outline: none;
 
 }
+
+.navbar-search-icon{
+    height:20px;
+    width: 20px;
+    padding: 5px;
+    
+}
 .navbar-nav{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin-right: 100px;
-    font-weight: 600;
     margin-left: 100px;
+    font-weight: 600;
+    color: white;
 }
 .navbar-account{
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
     margin-left: 10px;
-    color: white;
+    margin-right: 10px;
 }
 
 .navbar-cart{
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
     margin-left: 10px;
-    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.navbar-cart-icon{
+    height:20px;
+    width: 20px;
+    padding: 5px;
 
 }
 
+.navbar-carCount{
+    margin-right: 10px;
+    margin-left: 5px;
+
+}
 
 
 

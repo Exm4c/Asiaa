@@ -1,7 +1,8 @@
 //import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-
+import cart from '../../icons/cart.png';
+import search from '../../icons/search.png';
 
 function Navbar() {
     
@@ -14,15 +15,15 @@ function Navbar() {
       <>
            <nav className="navbar">
                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="../../pages/home/index.js" className="navbar-logo">
                         ASIAA
                     </Link>
                     
-                    
+                   
                     <div className="navbar-search">
                        
                         <input className="navbar-searchInput" type="text"/>
-                        {/* Logo aqui */}
+                        <img src={search} className="navbar-search-icon" alt="search"/>
                         
                         
                     </div>
@@ -38,6 +39,7 @@ function Navbar() {
                         </div>
                       
                         <div className="navbar-cart">
+                        <img src={cart} className="navbar-cart-icon" alt="cart"/>
                           <span
                             className="navbar-optText"
                             >Carrinho  </span>
