@@ -46,6 +46,7 @@
     font-size: 15px;
     
 }
+
 .navbar-searchDropdown{
     height: 37px;
     width: 25%;
@@ -83,9 +84,13 @@
 .navbar-account{
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .navbar-cart{
+    height:18px;
+    border-left: 1px solid #FFFF;
+    padding-left: 10px;
     margin-left: 10px;
     display: flex;
     align-items: center;
