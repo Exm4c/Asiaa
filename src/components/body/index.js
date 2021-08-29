@@ -1,22 +1,30 @@
 import React from 'react';
 import './body.css';
-
+import Products from '../../products';
 
 function Body (){
     return(
-        <>
-        <div className="body">Novas promoções exclusivas
+        
+        <div className="body">
             <div clasName="body-container">
-            <div className="body-row1">
-                {/*Podem ser quantos produtos quiser*/}
-                {/*Produtos*/}
+            <div className="body-row">
+                {/*Podem ser quantos produtos quiser, responsivo*/}
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
                 {/*Produtos*/}
                 {/*Produtos*/}
                 {/*Produtos*/}
                 
             </div>
             
-            <div className="body-row2">
+            <div className="body-row">
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
                 {/*Produtos*/}
                 {/*Produtos*/}
                 {/*Produtos*/}
@@ -25,7 +33,7 @@ function Body (){
             </div>
           </div>
         </div>       
-        </>
+        
 
     );
 }
