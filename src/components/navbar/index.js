@@ -1,14 +1,10 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-<<<<<<< HEAD
-import cart from '../../icons/cart.png';
-import search from '../../icons/search.png';
+
 import Dropdownbutton from '../buttons/index'
-=======
 import cart from '../../icons/cart-20.png';
 import search from '../../icons/search-20.png';
->>>>>>> origin/main
 
 function Navbar() {
     
