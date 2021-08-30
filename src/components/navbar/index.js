@@ -1,4 +1,4 @@
-//import React,{useState} from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import cart from '../../icons/cart.png';
@@ -6,9 +6,9 @@ import search from '../../icons/search.png';
 
 function Navbar() {
     
-    //const[click, setClick] = useState(false);
+    const[click, setClick] = useState(false);
 
-    //const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(!click);
 
 
  return(
@@ -19,7 +19,12 @@ function Navbar() {
                         ASIAA
                     </Link>
                     <div className="navbar-search">
-                        <button type="summit" className="navbar-searchDropdown">Todos produtos ˅</button>
+                        <button type="summit" className="navbar-searchDropdown" onClick={handleClick}>
+                            <span>Todos produtos ˅</span>
+                        {/*<i className={click ? console.log('opablz'):console.log('opanblz') }/>*/}        
+                            
+                    </button>
+                        
                         <input className="navbar-searchInput" type="text"/>
                         <button type="summit" className="navbar-searchButton"><img src={search} className="navbar-search-icon" alt="search"/></button>
                     </div>

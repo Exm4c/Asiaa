@@ -1,7 +1,7 @@
 import './products.css';
 import React from 'react';
-import starfull from '../icons/star-full.png';
-import starhalf from '../icons/star-half.png';
+//import starfull from '../icons/star-full.png';
+//import starhalf from '../icons/star-half.png';
 
 
 function Products(){
