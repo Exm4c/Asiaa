@@ -1,37 +1,30 @@
 import React from 'react';
 import './body.css';
 import Products from '../../products';
-import img from '../../icons/test2.png'
+
 
 function Body (){
     return(
 
         <div className="body">
-           <div clasName="body-container">
+           <div className="body-container">
+           <h1 className="titles">Novas promoções exclusivas</h1>
             <div className="body-row">
                 {/*Podem ser quantos produtos quiser, responsivo*/}
                 <Products></Products>
                 <Products></Products>
                 <Products></Products>
                 <Products></Products>
+            </div>
+            <h1 className="titles">Itens mais vendidos</h1>
+            <div className="body-row">
+                {/*Podem ser quantos produtos quiser, responsivo*/}
                 <Products></Products>
-                {/*Produtos*/}
-                {/*Produtos*/}
-                {/*Produtos*/}
-                
+                <Products></Products>
+                <Products></Products>
+                <Products></Products>
             </div>
             
-            <div className="body-row">
-                <Products></Products>
-                <Products></Products>
-                <Products></Products>
-                <Products></Products>
-                {/*Produtos*/}
-                {/*Produtos*/}
-                {/*Produtos*/}
-                {/*Produtos*/}
-                
-            </div>
           </div>
 
             

@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import cart from '../../icons/cart.png';
-import search from '../../icons/search.png';
+import cart from '../../icons/cart-20.png';
+import search from '../../icons/search-20.png';
 
 function Navbar() {
     
