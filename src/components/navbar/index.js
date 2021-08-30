@@ -31,6 +31,7 @@ function Navbar() {
                             <span className="navbar-optText"
                             >Conta</span>
                         </div>
+                        
                         <div className="navbar-cart">
                             <img src={cart} className="navbar-cart-icon" alt="cart"/>
                             <span
