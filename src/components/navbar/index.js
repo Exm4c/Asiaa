@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './navbar.css';
 import cart from '../../icons/cart.png';
 import search from '../../icons/search.png';
+import Dropdownbutton from '../buttons/index'
 
 function Navbar() {
     
@@ -19,11 +20,11 @@ function Navbar() {
                         ASIAA
                     </Link>
                     <div className="navbar-search">
-                        <button type="summit" className="navbar-searchDropdown" onClick={handleClick}>
-                            <span>Todos produtos ˅</span>
+                        <Dropdownbutton type="summit" className="navbar-searchDropdown" onClick={handleClick}>
+                            
                         {/*<i className={click ? console.log('opablz'):console.log('opanblz') }/>*/}        
                             
-                    </button>
+                    </Dropdownbutton>
                         
                         <input className="navbar-searchInput" type="text"/>
                         <button type="summit" className="navbar-searchButton"><img src={search} className="navbar-search-icon" alt="search"/></button>
