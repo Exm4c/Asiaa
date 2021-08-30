@@ -13,6 +13,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
 
 
+    
  return(
       <>
            <div className="navbar">

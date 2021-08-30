@@ -3,32 +3,30 @@ import React, { useState }  from 'react';
 import { Link } from 'react-router-dom';
 import './buttons.css';
 
-function Dropdownbutton({categoria}){
+function Dropdownbutton(){
+
     
-    const[click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
+    function MouseOver(event) {
+        event.target.innerHTML = 'Todos os produtos ˅';
+        event.target.style.borderBottomLeftRadius = '0px';
+      }
+      function MouseOut(event){
+        event.target.innerHTML = 'Todos os produtos >';
+        event.target.style.borderBottomLeftRadius = '8px';
+      
+      }
+
+    
     
     return (
-        <div className="dropdownbutton">
-            <div
-            
-            className="dropdrown-header"
-            role="button"
-            onKeyPress={()=> handleClick(!click)}
-            onClick={()=> handleClick(!click)}
-            
-            >
-
-            <div className="dropdown-event">
-                <p>{click ? 'Todos os produtos ˅': 'Todos os produtos >'} </p>
-                <span>{categoria}</span>
-
-
-
-
-                </div>
-            </div>
-        </div>
+        <div class="dropdown">
+           <button class="dropbtn" onMouseOver={MouseOver} onMouseOut={MouseOut}><p>Todos os produtos &gt; </p></button>
+               <div class="dropdown-content">
+                   <a href="#">AAA</a>
+                   <a href="#">AAA</a>
+                   <a href="#">AAA</a>
+               </div>
+       </div>
         
 
     )
