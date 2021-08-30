@@ -7,7 +7,7 @@ function Body (){
     return(
 
         <div className="body">
-           <div clasName="body-container">
+           <div className="body-container">
             <div className="body-row">
                 {/*Podem ser quantos produtos quiser, responsivo*/}
                 <Products></Products>
