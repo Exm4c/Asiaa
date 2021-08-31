@@ -1,7 +1,7 @@
 import './products.css';
 import React from 'react';
 import starfull from '../icons/star-full.png';
-import starhalf from '../icons/star-half.png';
+//import starhalf from '../icons/star-half.png';
 import airpod from '../icons/airpod.png';
 
 function Products(){
@@ -27,11 +27,11 @@ function Products(){
 
             <div className="rating">
                 <p>
-                    <img src={starfull} width="20" height="20"></img>
-                    <img src={starfull} width="20" height="20"></img>
-                    <img src={starfull} width="20" height="20"></img>
-                    <img src={starfull} width="20" height="20"></img>
-                    <img src={starfull} width="20" height="20"></img>
+                    <img src={starfull} width="20" height="20" alt="starfull"></img>
+                    <img src={starfull} width="20" height="20" alt=" "></img>
+                    <img src={starfull} width="20" height="20" alt=" "></img>
+                    <img src={starfull} width="20" height="20" alt=" "></img>
+                    <img src={starfull} width="20" height="20" alt=" "></img>
                     5.0 (1234)
                 </p>
             </div>

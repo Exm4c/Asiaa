@@ -1,5 +1,5 @@
-import React,{useState} from 'react';
-import { Link } from 'react-router-dom';
+//import React,{useState} from 'react';
+//import { Link } from 'react-router-dom';
 import './style.css';
 
 import instagramIcon from '../../icons/instagram-20.png';
@@ -12,9 +12,9 @@ import twitterIcon from '../../icons/twitter-20.png';
 
 function Footer() {
     
-    const[click, setClick] = useState(false);
+ //   const[click, setClick] = useState(false);
 
-    const handleClick = () => setClick(!click);
+//    const handleClick = () => setClick(!click);
 
     const Whatsapp = '(XX) XXXXX-XXXX';
     const Telefone = '(XX) XXXXX-XXXX';
@@ -26,15 +26,15 @@ function Footer() {
                 <div id="right">
                     <p className="title">Redes sociais</p>   
                     <p>Acompanhe todas as novidade e promoções em nossas redes sociais </p>   
-                    <img src={instagramIcon} className="icons"></img>
-                    <img src={facebookIcon} className="icons"></img>
-                    <img src={youtubeIcon} className="icons"></img>
-                    <img src={twitterIcon} className="icons"></img>
+                    <img src={instagramIcon} className="icons" alt=""></img>
+                    <img src={facebookIcon} className="icons" alt =""></img>
+                    <img src={youtubeIcon} className="icons" alt =""></img>
+                    <img src={twitterIcon} className="icons" alt= ""></img>
                     <p className="title">Metodos de pagametos</p>
                 </div>
                 <div id="left">
                     <p className="title">Atendimento</p>   
-                    <p>Whatsapp: {Whatsapp}<img src={whatsappIcon} className="iconWhats"></img></p> 
+                    <p>Whatsapp: {Whatsapp}<img src={whatsappIcon} className="iconWhats" alt =""></img></p> 
                     <p>Telefone: {Telefone}</p>   
                     <p>E-mail: {Email}</p>
                 </div>
