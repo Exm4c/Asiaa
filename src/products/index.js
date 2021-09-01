@@ -4,9 +4,9 @@ import starfull from '../icons/star-full.png';
 //import starhalf from '../icons/star-half.png';
 import airpod from '../icons/airpod.png';
 
-function Products(){
-    return( 
-        
+export default function Products() {
+    return (
+
         <div className="products">
 
             <div className="discount">
@@ -16,7 +16,7 @@ function Products(){
             <div className="img">
                 <img src={airpod} alt="airpod" width="200" height="200"></img>
             </div>
-            
+
             <div className="brand">
                 <p>Apple</p>
             </div>
@@ -35,14 +35,14 @@ function Products(){
                     5.0 (1234)
                 </p>
             </div>
-            
+
             <p className="price">
-               <p className="Value">R$ 500,00 <strike id="OldValue">R$ 500,00</strike></p>
+                <p className="Value">R$ 500,00 <strike id="OldValue">R$ 500,00</strike></p>
             </p>
 
-        </div>   
+        </div>
 
     )
 }
 
-export default Products;
+

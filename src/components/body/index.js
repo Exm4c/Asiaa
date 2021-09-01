@@ -3,18 +3,18 @@ import './body.css';
 import Products from '../../products';
 
 
-function Body (){
-    return(
+function Body() {
+    return (
 
         <div className="body">
-           <div className="body-container">
-           <h1 className="titles">Novas promoções exclusivas</h1>
-             <div className="body-row">
-                {/*Podem ser quantos produtos quiser, responsivo*/}
-                <Products></Products>
-                <Products></Products>
-                <Products></Products>
-                <Products></Products>
+            <div className="body-container">
+                <h1 className="titles">Novas promoções exclusivas</h1>
+                <div className="body-row">
+                    {/*Podem ser quantos produtos quiser, responsivo*/}
+                    <Products></Products>
+                    <Products></Products>
+                    <Products></Products>
+                    <Products></Products>
                 </div>
 
                 <h1 className="titles">Itens mais vendidos</h1>
@@ -25,11 +25,11 @@ function Body (){
                     <Products></Products>
                     <Products></Products>
                 </div>
-            
-          </div>
 
-        
-        </div>               
+            </div>
+
+
+        </div>
 
     );
 }

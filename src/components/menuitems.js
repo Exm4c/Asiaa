@@ -1,19 +1,18 @@
-export const Menuitems = [
-    
-    {
-    product: 'Fones',
-    path: '/fones',
-    className:'dropdown-link'
-   },
-   {
-    product: 'Eletrônicos',
-    path: '/eletronicos',
-    className:'dropdown-link'
-   },
-   {
-    product: 'Celulares',
-    path: '/celulares',
-    className:'dropdown-link'
-   },
-]
+export function Menuitems(id) {
+
+   // { console.log(id) }
+   //Acho que to comparando duas coisas diferentes
+
+    return (id = 'Todos os produtos') ? <div>
+        <a href="/">Eletrônicos</a>
+        <a href="/">Celulares</a>
+        <a href="/">Computadores</a>
+
+    </div> : <div>
+        <a href="/">Conta</a>
+        <a href="/">Cadastre-se</a>
+
+    </div>
+
+}
 

@@ -1,4 +1,4 @@
-.dropbtn {
+.btnstyle1 {
     background:#141021;
     color: white;
     padding: 16px;
@@ -11,24 +11,24 @@
 
   }
   
-  .dropdown {
+  .btnstyle1dropdown {
     position: relative;
     display: inline-block;
+    
        
   }
   
-  .dropdown-content {
+  .btnstyle1content {
     display: none;
     position: absolute;
     background:#141021;
     min-width: 160px;
     z-index: 1;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
     
   }
   
-  .dropdown-content a {
+  .btnstyle1content a {
     font-size: 14px;
     color:white;
     padding:8px;
@@ -38,19 +38,54 @@
     
   }
  
-  .dropdown:hover .dropdown-content {
+  .btnstyle1dropdown:hover .btnstyle1content {
     display: block;
   }
   
- 
-  /*}.navbar-searchDropdown{
-    height: 37px;
-    width: 25%;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    color: white;    
-    outline: none;
+  
+
+
+
+
+
+  .btnstyle2 {
+    background-color:transparent ;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
-}
-*/
+    min-width: 90px;
+
+  }
+
+  .btnstyle2dropdown {
+    position: relative;
+    display: inline-block;
+    
+       
+  }
+  
+  .btnstyle2content {
+    display: none;
+    position: absolute;
+    background:#F8F8F8;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 8px;
+    
+  }
+  
+  .btnstyle2content a {
+    font-size: 14px;
+    color:#3633C8;
+    padding:8px;
+    text-decoration: none;
+    display: block;
+    cursor: context-menu;
+    
+  }
+ 
+  .btnstyle2dropdown:hover .btnstyle2content {
+    display: block;
+  }
