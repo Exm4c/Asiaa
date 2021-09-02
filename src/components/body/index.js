@@ -15,6 +15,7 @@ function Body() {
                     <Products></Products>
                     <Products></Products>
                     <Products></Products>
+
                 </div>
 
                 <h1 className="titles">Itens mais vendidos</h1>

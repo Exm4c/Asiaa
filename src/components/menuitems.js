@@ -12,7 +12,8 @@ export function Menuitems(id) {
 
         </div> :
         <div>
-            <a href="/">Conta</a>
+
+            <a href="/">Login</a>
             <a href="/">Cadastre-se</a>
 
         </div>
