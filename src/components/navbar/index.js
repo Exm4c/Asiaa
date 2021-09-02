@@ -6,7 +6,7 @@ import Dropdownbutton from '../buttons/index'
 import cart from '../../icons/cart-20.png';
 import search from '../../icons/search-20.png';
 
-export default () => {
+export default function Navbar() {
 
     const [click, setClick] = useState(false);
 
@@ -28,7 +28,7 @@ export default () => {
 
         <div className="navbar">
             <div className="navbar-container">
-                <Link to="../../pages/home/index.js" className="navbar-logo">
+                <Link to="/" className="navbar-logo">
                     ASIAA
                 </Link>
                 <div className="navbar-search">
@@ -46,11 +46,15 @@ export default () => {
                         </Dropdownbutton>
                     </div>
 
-                    <div className="navbar-cart">
-                        <img src={cart} className="navbar-cart-icon" alt="cart" />
-                        <span className="navbar-optText">Carrinho</span>
-                        <span className="navbar-optText navbar-carCount">0</span>
-                    </div>
+                    <Link to="/cart_view" className="navbar-cart-container">
+                        <div className="navbar-cart">
+
+                            <img src={cart} className="navbar-cart-icon" alt="cart" />
+                            <span className="navbar-optText">Carrinho</span>
+                            <span className="navbar-optText navbar-carCount">0</span>
+
+                        </div>
+                    </Link>
                 </div>
 
             </div>

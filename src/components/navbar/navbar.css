@@ -86,6 +86,14 @@
     cursor: pointer;
 }
 
+
+.navbar-cart-container{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+}
+
 .navbar-cart{
     height:18px;
     border-left: 1px solid #FFF;
@@ -93,13 +101,14 @@
     margin-left: 10px;
     display: flex;
     align-items: center;
-    cursor: pointer;
-
+   
 }
 .navbar-cart-icon{
     height:20px;
     width: 20px;
     padding: 5px;
+    
+    
 }
 
 .navbar-carCount{

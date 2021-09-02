@@ -17,19 +17,11 @@ function App() {
             <h1>Página do Carrinho/Checkout</h1>
             <Footer />
           </Route>
-
-
           <Route path='/'>
             <Navbar />
             <Body />
             <Footer />
           </Route>
-
-
-
-
-
-
         </Switch>
 
       </div>
