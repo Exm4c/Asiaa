@@ -7,7 +7,7 @@
     cursor: pointer;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    min-width: 160px;
+    
 
   }
   
@@ -22,7 +22,7 @@
     display: none;
     position: absolute;
     background:#141021;
-    min-width: 160px;
+    min-width: 150px;
     z-index: 1;
     border-radius: 8px;
     
@@ -72,7 +72,7 @@
     display: none;
     position: absolute;
     background:#F8F8F8;
-    min-width: 160px;
+    min-width: 130px;
     z-index: 1;
     border-radius: 8px;
     
