@@ -3,7 +3,7 @@ export function Menuitems(id) {
 
 
 
-    return (id.id == 1) ?
+    return (id.id === 1) ?
 
         <div>
             <a href="/">Eletrônicos</a>
