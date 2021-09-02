@@ -14,12 +14,12 @@ export default () => {
 
     var dropdown1Keys = {
         title: "Todos os produtos",
-        id:1,  
+        id: 1,
         buttonStyle: "btnstyle1"
     }
     var dropdown2Keys = {
         title: "Conta",
-        id:2,
+        id: 2,
         buttonStyle: "btnstyle2"
     }
 
@@ -32,8 +32,8 @@ export default () => {
                     ASIAA
                 </Link>
                 <div className="navbar-search">
-                    <Dropdownbutton titulo={dropdown1Keys.title} style={dropdown1Keys.buttonStyle} id={dropdown1Keys.id} onClick={handleClick }>
-                        {/*<i className={click ? console.log('opablz'):console.log('opanblz') }/>*/}
+                    <Dropdownbutton titulo={dropdown1Keys.title} style={dropdown1Keys.buttonStyle} id={dropdown1Keys.id} onClick={handleClick}>
+                        {/*Todos esses parametros sao objetos*/}
                     </Dropdownbutton>
 
                     <input className="navbar-searchInput" type="text" />

@@ -8,12 +8,13 @@ import './buttons.css';
 
 function Dropdownbutton(props) {
 
+  const { id, titulo, style } = props;
+
   return (
-    <div className={props.style + "dropdown"}>
-      <button className={props.style}><p>{props.titulo} </p></button>
-      <div className={props.style + "content"}>
-        <Menuitems id={props.titulo}/>
-        {console.log(props.titulo)}
+    <div className={style + "dropdown"}>
+      <button className={style}><p>{titulo} </p></button>
+      <div className={style + "content"}>
+        <Menuitems id={id} />
 
       </div>
     </div>
