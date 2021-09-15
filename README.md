@@ -1,4 +1,4 @@
 # ASIAA
 
-Sistema avançado de ecommerce.
+Sistema de ecommerce.
 
